@@ -21,14 +21,17 @@ class LoginForm extends StatelessWidget {
             TextFormField(
               decoration: const InputDecoration(
                 hintText: "Email",
+                hintStyle: TextStyle(color: Colors.white),
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(vertical: defpaultPadding),
+              padding: const EdgeInsets.symmetric(vertical: defaultPadding),
               child: TextFormField(
                 obscureText: true,
                 decoration: const InputDecoration(
-                  hintText: "Password",
+                    hintText: "Password",
+                    hintStyle: TextStyle(color: Colors.white),
+                    labelStyle: TextStyle(color: Colors.white),
                 ),
               ),
             ),
@@ -39,7 +42,7 @@ class LoginForm extends StatelessWidget {
                 style: TextStyle(color: Colors.white),
               ),
             ),
-            const Spacer(flex: 2),
+            const Spacer(flex: 1)
           ],
         ),
       ),
