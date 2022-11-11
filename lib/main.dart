@@ -1,4 +1,5 @@
 import 'package:animated_login_signup_page_in_flutter/Auth_Screen.dart';
+import 'package:animated_login_signup_page_in_flutter/widgets/NewDesign.dart';
 import 'package:flutter/material.dart';
 
 void main() {
