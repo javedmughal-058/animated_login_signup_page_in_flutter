@@ -22,7 +22,7 @@ class SignUpForm extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(vertical: defpaultPadding),
+              padding: const EdgeInsets.symmetric(vertical: defaultPadding),
               child: TextFormField(
                 obscureText: true,
                 decoration: const InputDecoration(
@@ -36,7 +36,7 @@ class SignUpForm extends StatelessWidget {
                 hintText: "Confirm Password",
               ),
             ),
-            const Spacer(flex: 2)
+            const Spacer(flex: 1)
           ],
         ),
       ),
